@@ -1,0 +1,25 @@
+---
+title: "Week 3 Assignment"
+author: "Vadim K."
+date: "14 June 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Intro
+
+The aim of this small presentation is to practice intergation of Plotly interactive 
+plots in R markdown presentation published on the Web.
+And to show off a bit of creativity ;)
+
+
+## Slide with Plotly plot
+
+```{r warning=FALSE, message=FALSE}
+library(plotly) ; library(ggplot2)
+plot_ly(mtcars, x = ~wt, y = ~mpg, type = "scatter")
+
+```
