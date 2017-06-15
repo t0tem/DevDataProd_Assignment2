@@ -19,7 +19,7 @@ And to show off a bit of creativity ;)
 ## Slide with Plotly plot
 
 ```{r warning=FALSE, message=FALSE}
-library(plotly) ; library(ggplot2)
-plot_ly(mtcars, x = ~wt, y = ~mpg, type = "scatter")
+library(plotly)
+plot_ly(z = ~volcano, type = "surface")
 
 ```
